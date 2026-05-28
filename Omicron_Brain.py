@@ -18,7 +18,7 @@ desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
 journal_file = os.path.join(desktop_path, "journal_audio_ia.json")
 
 # Ta clé API Groq (Pense à la révoquer/générer une nouvelle si besoin)
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "Clé API Groq"
 
 print("🧠 Chargement du modèle de vectorisation dans ton cerveau local...")
 # Modèle de vectorisation hyper léger et ultra-performant pour le français
