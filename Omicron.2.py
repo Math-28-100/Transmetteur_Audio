@@ -12,7 +12,7 @@ from groq import Groq
 # =====================================================================
 # CONFIGURATION ABSOLUE & SECURITE
 # =====================================================================
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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").strip()
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "Clé API Groq").strip()
 MODEL_IA = "llama-3.3-70b-versatile"
 
 # Dossier système localisé pour la persistance de Qdrant
