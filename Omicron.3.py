@@ -66,7 +66,7 @@ log_ui   = logging.getLogger("Interface")
 # ⚠ Clé API : JAMAIS dans le code — utiliser variable d'environnement
 # Windows : setx GROQ_API_KEY "gsk_..."  puis redémarrer PyCharm
 # Linux   : export GROQ_API_KEY="gsk_..."
-GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "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").strip()
+GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "Clé API Groq").strip()
 if not GROQ_API_KEY:
     print(
         "\n[ERREUR FATALE] Clé GROQ_API_KEY introuvable.\n"
